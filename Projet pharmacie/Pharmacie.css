@@ -1,0 +1,30 @@
+body{background-image: url("Images/a3338eceef0129b1e25d3949b8baf4ec_large.jpeg");
+	  background-size: 180%;}
+
+a:link{color: black;}
+a:visited{color: black}
+
+
+div.titre { width: 150%; margin-left: -275pt}
+h1{background-image: url("Images/uqimvzlj.jpg");font-family: "Mv Boli"; color: black;
+border-style: ridge;border-color: navy; text-align: center; border-width: 3pt;
+border-radius: 1em; width: 30%;}
+
+img.logo_pharmacie{padding-bottom: -3pt;}
+
+li{font-family: "Roman"; text-decoration: underline;font-weight: bold; margin-left: -25pt}
+
+p{text-align: center; margin-top: -5pt; font-family: "Arial";}
+
+ul{border-style: ridge; margin-top: 3pt;float: left;width: 20%;margin-top: 3%;
+ border-color: navy; border-radius: 2em 4em;}
+
+img.Acceuil{margin-top: -50pt;border-radius: 1em; border-style: ridge;border-color: navy; float: center;}
+div.Acceuil{text-align: center;margin-top: 15%;}
+
+img{margin-bottom: -5pt}
+
+div.croix1{float: right;margin-top: 9%; margin-right: 20%} 
+div.croix2{float: left;margin-top: 9%;margin-left: 19%} 
+ 
+div.coordonnées{text-align: center; margin-top: 5%}
