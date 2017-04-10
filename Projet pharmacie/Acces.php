@@ -1,14 +1,34 @@
-
 <!DOCTYPE html>
-<html><head >
-       <title>Accès</title>
-              <meta charset="UTF-8"/>
-              
-    </head>
-    <body>
-<h1><img src="Images\pharmacie-garde.png" alt="logo_pharmacie" width="45" height="45"/>&nbsp&nbsp&nbsp Accès &nbsp&nbsp&nbsp<img src="Images\pharmacie-garde.png" alt="logo_pharmacie" width="45" height="45"/></h1>
+<html lang="fr">
+<head>
+   <title>Accès</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="Acces.css"/>
+
+</head>
+<body>     
 
 <?php include("menu.php");?>
+
+  <div class="container">
+    <div class="jumbotron">     
+      <h2><img src="Images\pharmacie-garde.png" alt="logo_pharmacie" width="45" height="45"/>&nbsp&nbsp&nbsp Nous trouver &nbsp&nbsp&nbsp<img src="Images\pharmacie-garde.png" alt="logo_pharmacie" width="45" height="45"/></h2>
+      <br/>
+      Votre profil: <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-user"/>
+  </button>
+  Votre panier d'achats: <button type="button" class="btn btn-info">
+  <span class="glyphicon glyphicon-shopping-cart"/>
+</button>
+
+</div>
+</div>
+
 
 <div class="map"><a href="https://fr.mappy.com/#/6/M2/TSearch/S18+bis+rue+du+mar%C3%A9chal+joffres+37100+tours/N151.12061,6.11309,0.70267,47.42177/Z15/
 " target="_blank"><img src="Images\mi_ima_b1bd4c30b2.png" width="150" height="150"></a></div>
@@ -47,16 +67,7 @@ window.onload = function(){ setInterval(textClignotant, 300); };
 <div class="centrale"><a href="https://fr.mappy.com/#/6/M2/TSearch/S18+bis+rue+du+mar%C3%A9chal+joffres+37100+tours/N151.12061,6.11309,0.70267,47.42177/Z15/
 " target="_blank"><img class="map" src="Images\espace horloge.bmp" alt="espace horloge" width="850" height="500" /></a></div>
 
-<div class="croix1"><img src="Images\40626.gif"/></div>
-<div class="croix2"><img src="Images\40626.gif"/></div>
-
-<div class="coordonnées">
-<p>18 bis rue du Maréchal Joffres 37100 tours</p>
-<p>Zone commerciale de l'Horloge</p>
-<p><img src="Images\arobase01.jpg" alt="@" width="25" height="27"/><a href="mailto:pharmacie.jego@wanadoo.fr">pharmacie.jego@wanadoo.fr</a></p>
-<p><img src="Images\c9dbb-logo_telephone.png" alt="Tel" width="30" height="30"/> Tel : 02.47.86.03.33</p>
-<p><img src="Images\fax-icon-png-11.png" alt="Tel" width="30" height="30"/> Fax : 02.47.86.03.33</p>
-</div>
+ <?php include("FootPage.php");?>
 
 
 

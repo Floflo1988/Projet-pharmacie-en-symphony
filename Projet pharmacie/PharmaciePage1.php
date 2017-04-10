@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
- <title>Contacts</title>
+ <title>Acceuil</title>
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,7 +17,7 @@
 
   <div class="container">
     <div class="jumbotron">     
-      <h2><img src="Images\pharmacie-garde.png" alt="logo_pharmacie" width="45" height="45"/>&nbsp&nbsp&nbsp Contacts &nbsp&nbsp&nbsp<img src="Images\pharmacie-garde.png" alt="logo_pharmacie" width="45" height="45"/></h2>
+      <h2><img src="Images\pharmacie-garde.png" alt="logo_pharmacie" width="45" height="45"/>&nbsp&nbsp&nbsp Bienvenu à la Pharmacie de l'Horloge &nbsp&nbsp&nbsp<img src="Images\pharmacie-garde.png" alt="logo_pharmacie" width="45" height="45"/></h2>
       <br/>
       Votre profil: <button type="button" class="btn btn-info">
       <span class="glyphicon glyphicon-user"/>
@@ -31,18 +31,11 @@
 
 
 <div class="Acceuil">
-<img class ="Acceuil" src="Images\pharmacist.png" alt="pharmacie" height="200" width="200" />
-<br/>
-<br/>
-<p>Docteur J&Eacute;GO Christian</p>
-<p>Doctorat d'état</p>
-<p>Université des Sciences Pharmaceutiques de Tours</p>
-<p><img src="Images\arobase01.jpg" alt="@" width="25" height="27"/><a href="mailto:pharmacie.jego@wanadoo.fr">pharmacie.jego@wanadoo.fr</a></p>
-<p><img src="Images\c9dbb-logo_telephone.png" alt="Tel" width="30" height="30"/> Tel : 02.47.86.03.33</p>
-<p><img src="Images\fax-icon-png-11.png" alt="Tel" width="30" height="30"/> Fax : 02.47.86.03.33</p>
+  <img class ="Acceuil" src="Images\Nouvelle image bitmap.bmp" alt="pharmacie"/>
 </div>
-<div class="web">
-WEB MASTER: <a href="mailto:florian_jego@hotmail.fr">florian_jego@hotmail.fr</a>
-</div>
+
+
+
+<?php include("FootPage.php");?>
 </body>
 </html>

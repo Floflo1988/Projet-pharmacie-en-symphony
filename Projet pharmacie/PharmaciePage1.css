@@ -1,5 +1,5 @@
 body{background-image: url("Images/uqimvzlj.jpg");
-	  background-size: 200%;}
+	  background-size: 150%;}
 
 a:link{color: black;}
 a:visited{color: black;}
@@ -15,4 +15,8 @@ img.logo_pharmacie{padding-bottom: -3pt;}
 p{text-align: center; margin-top: -5pt; font-family: "Arial";}
 
 
+img.Acceuil{border-radius: 2em 2em;border-style: ridge; border-color: navy;}
 
+div.Acceuil{text-align: center}
+
+div.web{text-align: right;}
